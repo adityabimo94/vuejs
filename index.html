@@ -1,0 +1,293 @@
+<?php $this->layout('template')?>
+<link href="assets/css/icomoon/style.css" rel="stylesheet">
+<link href="assets/css/login.css" rel="stylesheet">
+
+<div class="search1 konten-header">
+    <div class="search2">
+        <div class="breadcrumbs breadcrumbs-tax" typeof="BreadcrumbList" vocab="http://schema.org/"> <span
+                property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Loker Jogja"
+                    href="<?=$base_url?>" class="home" data-wpel-link="internal"><span
+                        property="name"><?=$namaweb?></span></a>
+                <meta property="position" content="1"></span> &gt; Form Order : Paket Bronze</div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 konten-inner">
+            <h1 aria-label="Form Order : Paket Bronze">
+                <span class="word1" aria-hidden="true">Form</span>
+                <span class="word2" aria-hidden="true">Order</span>
+                <span class="word3" aria-hidden="true">:</span>
+                <span class="word4" aria-hidden="true">Paket</span>
+                <span class="word5" aria-hidden="true">Bronze</span>
+            </h1>
+            <div class="caldera-grid">
+                <div id="caldera_notices_1" data-spinner="https://www.lokerjogja.id/wp-admin/images/spinner.gif"></div>
+                <form class="CF61ae6be4b4170 caldera_forms_form cfajax-trigger _tisBound" method="POST"
+                    enctype="multipart/form-data" id="fbronze" action="form-bronze">
+
+                    <div class="caldera-form-page" style="display:block;" aria-hidden="false">
+                        <div class="row  first_row">
+                            <div class="col-sm-12  single">
+                                <!-- Step 1 -->
+                                <div class="bagian">
+                                    <div class="form-group">
+                                        <label class="control-label">Nama Lengkap (sesuai KTP)
+                                            <span aria-hidden="true" class="field_required"
+                                                style="color:#ee0000;">*</span>
+                                        </label>
+                                        <div class="">
+                                            <input type="text" class=" form-control" name="nama_lengkap" required>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label class="control-label">Email
+                                            <span aria-hidden="true" class="field_required"
+                                                style="color:#ee0000;">*</span>
+                                        </label>
+                                        <div class="">
+                                            <input type="email" class=" form-control" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Whatsapp
+                                            <span aria-hidden="true" class="field_required"
+                                                style="color:#ee0000;">*</span>
+                                        </label>
+                                        <div class="">
+                                            <input type="text" class=" form-control" name="whatsapp" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label">Nama Perusahaan
+                                            <span aria-hidden="true" class="field_required"
+                                                style="color:#ee0000;">*</span>
+                                        </label>
+                                        <div class="">
+                                            <input required="" type="text" class=" form-control" name="nama_perusahaan">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Deskripsi Perusahaan</label>
+                                        <div class="">
+                                            <textarea name="deskripsi_perusahaan" class="form-control"
+                                                rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Profil Perusahaan</label>
+                                        <div class="">
+                                            <textarea name="profil_perusahaan" class="form-control" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" i> <label class="control-label">Logo Perusahaan</label>
+                                        <div class="file-prevent-overflow">
+                                            <div class="cf-multi-uploader-list">
+
+                                            </div>
+                                            <input type="file" name="logo_perusahaan">
+                                            <p></p>
+                                            <span class="help-block mt-3">Ukuran maks. 1 MB</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="card polka">
+                                            <img style="min-height: 125px;" class="card-img-top w-100" id="fotoPreview"
+                                                src="../images/property/small/<?=$gallery[0]['gambar']?>" />
+                                            <input name="foto-1" type="file" id="foto-property"
+                                                accept="image/gif, image/jpeg, image/png" hidden />
+                                            <label class="usada" for="foto-property"> <i class="sl-icon-plus"></i>
+                                                Gambar Utama
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <?php $no=2; ?>
+                                        <?php for($i= 1;$i < 6 ; $i++): ?>
+                                        <div class="col-md-2">
+                                            <div class="xenoSeries xenogear polka<?=$no?>">
+                                                <div class="_36uzR"><button type="button" class="btn-xeno rui-82PI3"
+                                                        role="button" tabindex="0" data-aut-id="" title=""><svg width="36px"
+                                                            height="36px" viewBox="0 0 1024 1024" data-aut-id="icon"
+                                                            class="" fill-rule="evenodd">
+                                                            <path class="rui-2qwuD"
+                                                                d="M861.099 667.008v78.080h77.568v77.653h-77.568v77.141h-77.568v-77.184h-77.611v-77.611h77.611v-78.080h77.568zM617.515 124.16l38.784 116.437h165.973l38.827 38.827v271.659l-38.827 38.357-38.741-38.4v-232.832h-183.125l-38.784-116.48h-176.853l-38.784 116.48h-183.083v426.923h426.667l38.784 38.357-38.784 39.253h-465.493l-38.741-38.869v-504.491l38.784-38.827h165.973l38.827-116.437h288.597zM473.216 318.208c106.837 0 193.92 86.955 193.92 194.048 0 106.923-87.040 194.091-193.92 194.091s-193.963-87.168-193.963-194.091c0-107.093 87.083-194.048 193.963-194.048zM473.216 395.861c-64.213 0-116.352 52.181-116.352 116.395 0 64.256 52.139 116.437 116.352 116.437 64.171 0 116.352-52.181 116.352-116.437 0-64.213-52.181-116.437-116.352-116.437z">
+                                                            </path>
+                                                        </svg></button>
+                                                    <div class="e22Bu"><span>Tambahkan foto</span></div>
+                                                    <input name="foto-3" type="file" id="foto-propert<?=$no?>"
+                                                            accept="image/gif, image/jpeg, image/png" hidden />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <?php $no++ ; endfor; ?>
+                                    </div>
+                                    
+                                </div> <!-- End Step 1 -->
+
+                                <!-- Step 2 -->
+                                <div class="bagian">
+                                    <div class="form-group">
+                                        <label class="control-label">Alamat Perusahaan</label>
+                                        <div class="">
+                                            <textarea name="alamat_perusahaan" class="form-control" rows="2"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Nomor Telepon
+                                            <span aria-hidden="true" class="field_required"
+                                                style="color:#ee0000;">*</span>
+                                        </label>
+                                        <div class="">
+                                            <input type="text" class=" form-control" name="telepon_perusahaan" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Nomor Whatsapp
+                                            <span aria-hidden="true" class="field_required"
+                                                style="color:#ee0000;">*</span>
+                                        </label>
+                                        <div class="">
+                                            <input type="text" class=" form-control" name="whatsapp_perusahaan"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Email
+                                        </label>
+                                        <div class="">
+                                            <input type="email" class=" form-control" name="email_perusahaan">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Jam Kerja
+                                        </label>
+                                        <div class="">
+                                            <input type="text" class=" form-control" name="jam_kerja">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Maps
+                                        </label>
+                                        <div class="">
+                                            <input type="text" class=" form-control" name="maps">
+                                        </div>
+                                    </div>
+
+                                </div><!-- End Step 2 -->
+
+                                <!-- Step 3 -->
+                                <div class="bagian">
+                                    <div class="form-group">
+                                        <label class="control-label">Produk / Layanan
+                                            <span aria-hidden="true" class="field_required"
+                                                style="color:#ee0000;">*</span>
+                                        </label>
+                                        <div class="">
+                                            <input type="text" class=" form-control" name="whatsapp_perusahaan"
+                                                required>
+                                        </div>
+                                    </div>
+                                </div><!-- End Step 3 -->
+
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-sm-12  first_col ">
+                                <div class="d-flex justify-content-between w-100">
+                                    <button class="kembali cf-page-btn cf-page-btn-prev" type="button" id="prevBtn"
+                                        onclick="nextPrev(-1)">Kembali</button>
+                                    <button class="power-button cf-page-btn cf-page-btn-next" type="button" id="nextBtn"
+                                        onclick="nextPrev(1)">Selanjutnya</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    var currentTab = 0; // Current tab is set to be the first tab (0)
+    showTab(currentTab); // Display the current tab
+
+    function showTab(n) {
+        // This function will display the specified tab of the form...
+        var x = document.getElementsByClassName("bagian");
+        x[n].style.display = "block";
+        //... and fix the Previous/Next buttons:
+        if (n == 0) {
+            document.getElementById("prevBtn").style.display = "none";
+        } else {
+            document.getElementById("prevBtn").style.display = "inline";
+        }
+        if (n == (x.length - 1)) {
+            document.getElementById("nextBtn").innerHTML = "Submit";
+        } else {
+            document.getElementById("nextBtn").innerHTML = "Selanjutnya";
+        }
+        //... and run a function that will display the correct step indicator:
+        //fixStepIndicator(n)
+    }
+
+    function nextPrev(n) {
+        // This function will figure out which tab to display
+        var x = document.getElementsByClassName("bagian");
+        // Exit the function if any field in the current tab is invalid:
+        if (n == 1 && !validateForm()) return false;
+        // Hide the current tab:
+        x[currentTab].style.display = "none";
+        // Increase or decrease the current tab by 1:
+        currentTab = currentTab + n;
+        // if you have reached the end of the form...
+        if (currentTab >= x.length) {
+            // ... the form gets submitted:
+            document.getElementById("fbronze").submit();
+            return false;
+        }
+        // Otherwise, display the correct tab:
+        showTab(currentTab);
+    }
+
+    function validateForm() {
+        // This function deals with validation of the form fields
+        var x, y, i, valid = true;
+        x = document.getElementsByClassName("bagian");
+        y = x[currentTab].getElementsByTagName("input");
+        // A loop that checks every input field in the current tab:
+        for (i = 0; i < y.length; i++) {
+            // If a field is empty...
+            if (y[i].value == "" && y[i].hasAttribute('required')) {
+                // add an "invalid" class to the field:
+                y[i].className += " invalid";
+                // and set the current valid status to false
+                valid = false;
+            }
+        }
+        // If the valid status is true, mark the step as finished and valid:
+        if (valid) {
+            // document.getElementsByClassName("step")[currentTab].className += " finish";
+        }
+        return valid; // return the valid status
+    }
+
+    function fixStepIndicator(n) {
+        // This function removes the "active" class of all steps...
+        var i, x = document.getElementsByClassName("step");
+        for (i = 0; i < x.length; i++) {
+            x[i].className = x[i].className.replace(" active", "");
+        }
+        //... and adds the "active" class on the current step:
+        x[n].className += " active";
+    }
+</script>
